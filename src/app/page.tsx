@@ -17,22 +17,21 @@ export default function Home() {
       <Header />
       <Hero />
 
-      {/* <main id="main"></main> */}
+      <main id="main">
+        <About />
+        <AboutBox />
 
-      <About />
-      <AboutBox />
+        <Clients />
+        <Features />
 
-      <Clients />
-      <Features />
+        <Service />
+        <Testimonial />
 
-      <Service />
+        <Portifolio />
+        <Team />
 
-      <Testimonial />
-      <Portifolio />
-
-      <Team />
-
-      <Contact />
+        <Contact />
+      </main>
 
       <Footer />
     </main>

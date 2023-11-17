@@ -1,7 +1,13 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    //  new PureCounter()
+  }, []);
+
   return (
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">

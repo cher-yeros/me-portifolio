@@ -1,6 +1,19 @@
-import React from "react";
+"use client";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Hero() {
+  useEffect(() => {
+    // console.log("Hero");
+    Aos.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false,
+    });
+  }, []);
+
   return (
     <section id="hero">
       <div className="hero-container" data-aos="fade-up" data-aos-delay="150">
